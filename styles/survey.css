@@ -1,0 +1,69 @@
+:root {
+    --yellow: #FCC028;
+    --green: #207733;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+body, html {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+
+  .survey-logo {
+    width: 100%;
+  }
+  
+  .survey-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: sans-serif;
+  }
+  
+  .radio-group {
+    display: flex;
+    margin: 8px 0;
+    gap: 20px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: var(--yellow);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* button:hover {
+    background-color: var(--yellow);
+  } */
