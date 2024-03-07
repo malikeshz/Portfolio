@@ -13,6 +13,9 @@
     margin-block: 14.87px; 
 } */
     
+.wrapper {
+    align-items: center;
+}
 .logo {
     height: 40px;
     width: 120px;
@@ -45,15 +48,10 @@ body {
     font-size: 15px;
     font-family: "Inter", sans-serif;
     /* margin-inline: 97.36px; */
-    width: 1217.44px;
+    width: auto;
     height: 557.35px;
-    /* width: 1400px; */
     
 }
-/* .section1,
-.section2 {
-    margin-top: 14.87px;
-} */
 .hero-section {
     display: flex;
     /* min-height: 100vh; */
@@ -61,7 +59,7 @@ body {
  .menu {
     position: fixed;
     /* left: 275px; */
-    width: 1500px;
+    width: auto;
     background-color: #EFEFEF;
 
 
@@ -100,7 +98,7 @@ body {
 }
 .info-div {
     /* display: flex; */
-    width: 592.93px;
+    width: auto;
     /* height: 104px; */
 }
 .btn-info {
@@ -195,6 +193,7 @@ body {
 .card {
     transition: box-shadow 0.3s;
     border-radius: 30px;
+    width: auto;
     padding-bottom: 25px;
 }
 .card:hover {
@@ -203,15 +202,13 @@ body {
     
 }
 .image1, .image2, .image3 {
-    width: 358.29px;
-    height: 334.92;
+    width: 100%;
+    /* width: 358.29px; */
+    /* height: 334.92; */
     transition: box-shadow 0.3s;
     border-radius: 30px;
 }
-/* .image1:hover, .image2:hover, .image3:hover {
-    cursor: pointer;
-    box-shadow: 5px 5px 5px var();
-} */
+
 .card-title {
     /* border: solid red; */
     text-align: center;
@@ -221,8 +218,8 @@ body {
 
 .service-info {
     text-align: center;
-    width: 300px;
-    padding-left: 60px;
+    width: auto;
+    /* padding-left: 60px; */
 }
 .about-me {
     margin-top: 20px;
@@ -351,10 +348,15 @@ body {
 }
 
 @media (width<=375px) {
+    body {
+        width: 320px;
+    }
+    .mypic1 {
+        display: none;
+    }
     .img-container1,
     .mobile1 {
         display: block;
-        width: 318;
         height: 218px;
     }
     .wrapper {
@@ -368,7 +370,6 @@ body {
         min-height: 100vh;
         font-size: 30px;
         font-family: "Inter", sans-serif;
-        width: 1217.44px;
         height: 557.35px;
     }
     /* .info-div {
@@ -393,11 +394,28 @@ body {
     .my-info {
         font-size: 16px;
         text-align: start;
-        width: 318px;
+        /* width: 318px; */
         /* line-height: 50px; */
         width: 100%;
     }
     .menu {
+        display: none;
+    }
+    .cards {
+        display: grid;
+    }
+
+    .service-info {
+        text-align: center;
+    width: auto;
+    padding-left: 0;
+
+    }
+    #section2 {
+        width: 100%;
+
+    }
+    .slide-container {
         display: none;
     }
 
