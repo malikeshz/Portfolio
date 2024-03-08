@@ -15,6 +15,7 @@
     
 .wrapper {
     align-items: center;
+    margin-inline: 85.2px;
 }
 .logo {
     height: 40px;
@@ -36,15 +37,9 @@ body {
     background-color: #EFEFEF;
     /* position: fixed; */
   }
-.wrapper {
-    margin-inline: 85.2px;
-    /* border: solid red;
-    background-color: aqua; */
-    
-}
 .top-wrapper {
     
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-size: 15px;
     font-family: "Inter", sans-serif;
     /* margin-inline: 97.36px; */
@@ -164,6 +159,9 @@ body {
 
     
 } */
+.wrapper2 {
+    width: 100%;
+}
 .services {
     text-align: center;
     color: var(--yellow);
@@ -185,6 +183,7 @@ body {
 
 }
 .cards {
+    /* width: 100%; */
     display: flex;
     gap: 50px;
     /* border: solid red;  */
@@ -193,7 +192,7 @@ body {
 .card {
     transition: box-shadow 0.3s;
     border-radius: 30px;
-    width: auto;
+    width: 100%;
     padding-bottom: 25px;
 }
 .card:hover {
@@ -202,8 +201,8 @@ body {
     
 }
 .image1, .image2, .image3 {
-    width: 100%;
-    /* width: 358.29px; */
+    /* width: 90%; */
+    width: 358.29px;
     /* height: 334.92; */
     transition: box-shadow 0.3s;
     border-radius: 30px;
@@ -347,9 +346,9 @@ body {
 
 }
 
-@media (width<=375px) {
+@media (width<=425px) {
     body {
-        width: 320px;
+        width: auto;
     }
     .mypic1 {
         display: none;
@@ -357,7 +356,8 @@ body {
     .img-container1,
     .mobile1 {
         display: block;
-        height: 218px;
+        /* height: 218px; */
+        width: 100%;
     }
     .wrapper {
         margin-inline: 21px;
@@ -367,10 +367,10 @@ body {
     }
     .top-wrapper {
     
-        min-height: 100vh;
+        /* min-height: 100vh; */
         font-size: 30px;
         font-family: "Inter", sans-serif;
-        height: 557.35px;
+        /* height: 557.35px; */
     }
     /* .info-div {
         width: 840px;
@@ -401,8 +401,21 @@ body {
     .menu {
         display: none;
     }
+    .image2 {
+        width: 100%;
+    }
+    .services {
+        margin-top: 10px;
+        font-size: 100%;
+    }
+    .check-services {
+        font-size: 20px;
+    }
     .cards {
         display: grid;
+    }
+    .card {
+        width: 100;
     }
 
     .service-info {
@@ -417,6 +430,35 @@ body {
     }
     .slide-container {
         display: none;
+    }
+    .my-para {
+        font-size: 16px;
+        width: auto;
+        margin: 0;
+    }
+    .explore-services {
+        font-size: 15px;
+    }
+    .about-me {
+        align-items: center;
+    }
+    .handsome {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        
+    }
+    .achieved{
+        display: none;
+    }
+    #abt-me {
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+    }
+    .my-information {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
