@@ -267,7 +267,7 @@ body {
     max-width: 1120px;
     width: 100%;
     background-color: #EFEFEF;
-    padding: 40px 0;
+    padding: 0 0;
 }
 .image-content,
 .card-content {
@@ -417,6 +417,7 @@ body {
     }
     .card {
         width: 100;
+        padding: 0;
     }
     .card-title {
         font-size: 25px;
@@ -479,12 +480,15 @@ body {
     } */
     .slide-content {
         margin: 0;
-        width: 650px;
+        width: 870px;
     }
     .swiper-button-prev {
         display: none;
     }
     .swiper-button-next {
         display: none;
+    }
+    .testimonials {
+        font-size: 20px;
     }
 }
