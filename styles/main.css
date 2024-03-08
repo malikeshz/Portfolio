@@ -343,6 +343,9 @@ body {
     text-align: center;
 
 }
+.mobile1 {
+    display: none;
+}
 
 @media (width<=425px) {
     body {
