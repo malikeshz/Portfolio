@@ -22,9 +22,7 @@
     width: 120px;
     margin-right: 470px;
 }
-.img-container1 {
-    display: none;
-}
+
 section2 {
     min-height: 100vh;
     padding-top: 50px;
@@ -417,6 +415,13 @@ body {
     .card {
         width: 100;
     }
+    .card-title {
+        font-size: 25px;
+    }
+    .service-info {
+        margin-top: 5px;
+        font-size: 15px;
+    }
 
     .service-info {
         text-align: center;
@@ -424,19 +429,21 @@ body {
     padding-left: 0;
 
     }
+    .btn-info {
+        margin: 10px 0 20px 0;
+    }
     #section2 {
         width: 100%;
 
     }
-    .slide-container {
-        display: none;
-    }
+    
     .my-para {
         font-size: 16px;
         width: auto;
         margin: 0;
     }
     .explore-services {
+        display: none;
         font-size: 15px;
     }
     .about-me {
@@ -446,6 +453,8 @@ body {
         width: 200px;
         height: 200px;
         border-radius: 50%;
+        border: solid var(--yellow);
+        margin-bottom: 20px;
         
     }
     .achieved{
@@ -460,5 +469,19 @@ body {
         flex-direction: column;
         align-items: center;
     }
-
+    /* .card2 {
+        width: 320px;
+        border-radius: 25px;
+        background-color: #FFF  ;
+    } */
+    .slide-content {
+        margin: 0;
+        width: 650px;
+    }
+    .swiper-button-prev {
+        display: none;
+    }
+    .swiper-button-next {
+        display: none;
+    }
 }
