@@ -8,7 +8,7 @@
     <!-- swiper css -->
     <link
       rel="icon"
-      type="image/png"
+      type="image/jpg"
       sizes="32x32"
       href="./images/favicon.jpg"
     />
@@ -18,21 +18,30 @@
 </head>
 <body>
     <div class="wrapper">
+        <nav>
+            <ul class="sidebar">
+              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="30"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+              <!-- <img class="logo" src="./images/mkz.jpg"> -->
+              <li><a href="#section2">Services</a></li>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">contact me</a></li>
+              <!-- <button><a href="./hireme.html">Hire me</button></li> -->
+            </ul>
+            <!-- desktop -->
+            <ul>
+              <li><img class="logo" src="./images/mkz.jpg"></li>
+              <li class="hideOnMobile"><a></a></li>
+              <li class="hideOnMobile"><a href="#section2">Services</a></li>
+              <li class="hideOnMobile"><a href="#about-me">About me</a></li>
+              <li class="hideOnMobile"><a href="#comments">Testimonials</a></li>
+              <li class="hideOnMobile"><a href="./survey.html">contact me</a></li>
+              <button class="hideOnMobile"><a href="./hireme.html">Hire me</button></li>
+              <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            </ul>
+          </nav>
         <div class="top-wrapper">
-            <div class="menu">
-                
-                <ul class="menu-list">
-                   <img class="logo" src="./images/mkz.jpg">
-                   <a class="menu-items" href="#section2">Services</a>
-                   <a class="menu-items" href="#about-me">About me</a>
-                   <!-- <li class="menu-items">Portfolio</li> -->
-                   <a class="menu-items" href="#comments">Testimonials</a>
-                   <a class="menu-items" href="./survey.html">contact me</a>
-                   <div class="top-btn-div">
-                    <a href="./hireme.html"><button class="hire-me-top">Hire me</button></a>
-                   </div>
-                </ul>
-            </div>
+           
             <div class="section1">
                 <div class="img-container1">
                     <img class="mobile1" src="./images/mobile1.png">
@@ -48,6 +57,7 @@
                     </div>
                     </div>
                     <img class="mypic1" src="./images/hero image.png">
+                    <!-- <img class="mypic2" src="./images/composition-with-html-system-websites 1.png"> -->
                     <div class="fig1">
                         
                     </div>
@@ -58,7 +68,7 @@
                     <div class="wrapper2">
                         <h1 class="services">Services</h1>  
                         <h2 class="check-services">Check My Services</h2>
-                        <p class="explore-services">Explore all services</p>
+                        <a href="#" class="explore-services">Explore all services</a>
                         <div class="cards">
                             <div class="card">
                                 <img class="image2" src="./images/music app.jpg">
