@@ -673,7 +673,8 @@ nav{
     /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
     position: fixed;
     top: 0px;
-    /* width: 100%; */
+    width: 100%;
+    z-index: 9999;
   }
   nav ul{
     height: 50px;
