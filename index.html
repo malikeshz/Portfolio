@@ -21,26 +21,26 @@
         <nav>
             <ul class="sidebar">
               <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="30"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
-              <!-- <img class="logo" src="./images/mkz.jpg"> -->
               <li><a href="#section2">Services</a></li>
               <li><a href="#">About me</a></li>
               <li><a href="#">Testimonials</a></li>
               <li><a href="#">contact me</a></li>
-              <!-- <button><a href="./hireme.html">Hire me</button></li> -->
+              <button class="hire-me-top"><a id="hire-me-top" href="./hireme.html">Hire me</button></li>
             </ul>
             <!-- desktop -->
+            
             <ul>
               <li><img class="logo" src="./images/mkz.jpg"></li>
               <li class="hideOnMobile"><a></a></li>
               <li class="hideOnMobile"><a href="#section2">Services</a></li>
-              <li class="hideOnMobile"><a href="#about-me">About me</a></li>
+              <li class="hideOnMobile"><a href="#my-information">About me</a></li>
               <li class="hideOnMobile"><a href="#comments">Testimonials</a></li>
               <li class="hideOnMobile"><a href="./survey.html">contact me</a></li>
-              <button class="hideOnMobile"><a href="./hireme.html">Hire me</button></li>
+              <a href="./hireme.html"><button class="hideOnMobile hire-me-top">Hire me</button>
               <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
             </ul>
           </nav>
-        <div class="top-wrapper">
+          <div class="top-wrapper">
            
             <div class="section1">
                 <div class="img-container1">
@@ -76,9 +76,11 @@
                                 <p class="service-info">A seamless access to your favorite tracks and podcasts while you browse.</p>
                             </div>
                             <div class="card">
-                                <img class="image2" src="./images/news page.png">
-                                <h3 class="card-title">News Homepage</h3>
-                                <p class="service-info">Discover the latest in tech news with our sleek and intuitive website.</p>
+                               <a class="ttt-link" href="https://malikeshz.github.io/tik-tak-toe/">
+                                <img class="image2" src="./images/tiktaktoe.png">
+                                <h3 class="card-title">Tik-Tac-Toe</h3>
+                                <p class="service-info">Tic-tac-toe is a simple yet engaging game that involves strategy and quick thinking.</p>
+                               </a>
                             </div>
                             <div class="card">
                                 <img class="image2" src="./images/fashion website.jpg">
@@ -91,14 +93,118 @@
             </div>
             <div class="about-me" id="about-me">
                 <!-- <h2 class="services">About me</h2> -->
-                <div class="my-information">
-                    <img class="handsome" src="./images/abt me image.jpg">
-                    <div class class="about-me">
-                        <h2 class="services1" id="abt-me">About me</h2>
-                        <p class="my-para">Abdulmalik Ibrahim is a legendary programmer and web designer who has made a significant impact in the digital world. With a keen eye for design and a deep understanding of programming languages, Abdulmalik has created stunning and functional websites that have captivated users worldwide. His innovative approach to problem-solving and their ability to push the boundaries of what is possible in web design has earned them a reputation as a trailblazer in the industry. His dedication to excellence and their commitment to staying at the forefront of technological advancements have solidified his status as a legend in the programming and web design community.</p>
-                        <img class="achieved" src="./images/achieved.png">
-        
+                <div id="my-information">
+                    <h6 class="ntn">.</h6>
+                    <div class="my-information">
+                        <img class="handsome" src="./images/abt me image.jpg">
+                        <div class class="about-me">
+                            <h2 class="services1" id="abt-me">About me</h2>
+                            <p class="my-para">Abdulmalik Ibrahim is a legendary programmer and web designer who has made a significant impact in the digital world. With a keen eye for design and a deep understanding of programming languages, Abdulmalik has created stunning and functional websites that have captivated users worldwide. His innovative approach to problem-solving and their ability to push the boundaries of what is possible in web design has earned them a reputation as a trailblazer in the industry. His dedication to excellence and their commitment to staying at the forefront of technological advancements have solidified his status as a legend in the programming and web design community.</p>
+                            <img class="achieved" src="./images/achieved.png">
+            
+                        </div>
                     </div>
+                </div>
+
+
+                <div class="team-container">
+                    <h2 class="team">My Team</h2>
+                    <div class="first-three">
+                        <!-- copied -->
+                        <div class="team-box">
+                            <div class="image-content">
+                                <span class="overlay2"></span>
+    
+                                <div class="card-image">
+                                    <img src="./images/umar (2).png" class="card-img">
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2 class="name">Umar</h2>
+                                <p class="team-info">Random paragraph</p>
+                                <a class="team-portfolio" href="#">View Portfolio</a>
+                            </div>
+                        </div>
+
+                        <div class="team-box">
+                            <div class="image-content">
+                                <span class="overlay2"></span>
+    
+                                <div class="card-image">
+                                    <img src="./images/DSC_0351~2.jpg" class="card-img">
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2 class="name">Ayomide</h2>
+                                <p class="team-info">Random paragraph</p>
+                                <a class="team-portfolio" href="#">View Portfolio</a>
+                            </div>
+                        </div>
+
+                        <div class="team-box">
+                            <div class="image-content">
+                                <span class="overlay2"></span>
+    
+                                <div class="card-image">
+                                    <img src="./images/p-pic3.jpeg" class="card-img">
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2 class="name">Adeoluwa</h2>
+                                <p class="team-info">Random paragraph</p>
+                                <a class="team-portfolio" href="#">View Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-three">
+                        <!-- copied -->
+                        <div class="team-box">
+                            <div class="image-content">
+                                <span class="overlay2"></span>
+    
+                                <div class="card-image">
+                                    <img src="./images/qawiyah.jpg" class="card-img">
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2 class="name">Qowiyah</h2>
+                                <p class="team-info">Random paragraph</p>
+                                <a class="team-portfolio" href="#">View Portfolio</a>
+                            </div>
+                        </div>
+
+                        <div class="team-box">
+                            <div class="image-content">
+                                <span class="overlay2"></span>
+    
+                                <div class="card-image">
+                                    <img src="./images/aliyah.jpeg" class="card-img">
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2 class="name">Aliyah</h2>
+                                <p class="team-info">Random paragraph</p>
+                                <a class="team-portfolio" href="#">View Portfolio</a>
+                            </div>
+                        </div>
+
+                        <div class="team-box">
+                            <div class="image-content">
+                                <span class="overlay2"></span>
+    
+                                <div class="card-image">
+                                    <img src="./images/umairah 2.jpg" class="card-img">
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h2 class="name">Aisha</h2>
+                                <p class="team-info">Random paragraph</p>
+                                <a class="team-portfolio" href="#">View Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div id="testimonials">
                     <h2 class="testimonials" id="comments">Testimonials</h2>
@@ -236,6 +342,7 @@
             </div>
     
         </div>
+        
     </div>     
 </body>
 <!-- swiper js -->
