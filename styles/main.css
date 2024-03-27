@@ -12,7 +12,7 @@
 
 .section1 {
     margin-top: 80px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
     
 .wrapper {
@@ -118,8 +118,6 @@ body {
     align-items: end;
 }
 .hire-me-top {
-    position: absolute;
-    right: 5px;
     padding-block: 9.74px;
     padding-inline: 29.21px;
     background-color: var(--yellow);
@@ -273,9 +271,9 @@ body {
     /* margin-left: 50px; */
     width: 60%;
 }
-.team-container {
+/* .team-container {
     min-height: 100vh;
-}
+} */
 .first-three {
     display: flex;
 }
@@ -317,7 +315,7 @@ body {
     margin-block: 30px;
 }
 #body3 {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -586,7 +584,7 @@ body {
         list-style: none;
         display: flex;
         justify-content: flex-end;
-        align-items: center;
+        /* align-items: center; */
     }
     .ntn {
         display: none;
@@ -696,7 +694,7 @@ nav{
     /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: 90%;
     z-index: 9999;
   }
   nav ul{
@@ -704,8 +702,6 @@ nav{
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    /* align-items: center;
-    text-align: center; */
   }
   nav li{
     /* padding-top: 15px; */
