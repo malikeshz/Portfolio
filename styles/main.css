@@ -110,7 +110,7 @@ body {
     color: var(--white);
 }
 #hire-me-top {
-    padding-buttom: 0px;
+    padding-buttom: px;
 }
 .hire-me:hover {
     background-color: #ff9900;
@@ -347,7 +347,7 @@ body {
     columns: #333;
 }
 .comment-para {
-    padding-top: 20px;
+    padding-block: 20px;
     font-size: 18px;
     color: #707070;
     text-align: center;
@@ -358,6 +358,10 @@ body {
 }
 .see-more {
     display: none;
+}
+
+.swiper-pagination {
+    margin-top: 10px;
 }
 
 @media (width<=425px) {
