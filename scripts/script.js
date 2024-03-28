@@ -26,3 +26,5 @@ var swiper = new Swiper(".slide-content", {
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
   }
+
+  
